@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .blue-text {
+    color: #2196f3;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li::before {
+    content: "›";
+    color: #000;
+    margin-right: 10px;
+  }
+  

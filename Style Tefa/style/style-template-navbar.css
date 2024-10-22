@@ -1,0 +1,26 @@
+a img{
+    width: 35px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 35%;
+}
+
+.list-footer{
+    list-style-image: url('./asset/arrow\ 2.png');
+}
+
+.container-contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+ul li a{
+    font-size: 18px;
+}
